@@ -2,20 +2,20 @@
 
 (using melange 0.1)
 
-(name melange-opam-template)
+(name shunn_cards)
 
 (license "MIT")
 
-(maintainers <your_name>)
+(maintainers <Xavier Fujii>)
 
-(authors <your_name>)
+(authors <Xavier Fujii>)
 
-(homepage https://github.com/your/project)
+(homepage https://github.com/xavier-fujii/shunn_cards)
 
-(bug_reports https://github.com/your/project/issues)
+(bug_reports https://github.com/xavier-fujii/shunn_cards/issues)
 
 (package
  (allow_empty)
- (name melange-opam-template)
+ (name shunn_cards)
  (synopsis "Melange project")
- (description "Minimal melange project"))
+ (description "Web application for quickly creating anki cards"))

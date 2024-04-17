@@ -1,11 +1,11 @@
 opam-version: "2.0"
 synopsis: "Melange project"
-description: "Minimal melange project"
-maintainer: ["<your_name>"]
-authors: ["<your_name>"]
+description: "Web application for quickly creating anki cards"
+maintainer: ["Xavier Fujii"]
+authors: ["Xavier Fujii"]
 license: "MIT"
-homepage: "https://github.com/your/project"
-bug-reports: "https://github.com/your/project/issues"
+homepage: "https://github.com/xavier-fujii/shunn_cards"
+bug-reports: "https://github.com/xavier-fujii/shunn_cards/issues"
 depends: [
   "ocaml"
   "reason" {>= "3.10.0"}
@@ -18,4 +18,4 @@ depends: [
   "dot-merlin-reader" {with-test} # todo: use with-dev-setup once opam 2.2 is out
   "odoc" {with-doc}
 ]
-dev-repo: "git+https://github.com/your/project.git"
+dev-repo: "git+https://github.com/xavier-fujii/shunn_cards.git"
